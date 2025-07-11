@@ -6,7 +6,7 @@ export default function ProfileLayout({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-screen container mx-auto flex flex-col md:flex-row bg-gray-50">
       {/* Sidebar */}
-      <aside className="md:w-64 sticky top-20  h-full p-6 space-y-6 shadow-sm w-full">
+      <aside className="md:w-64 md:sticky md:top-20  h-full p-6 space-y-6 shadow-sm w-full">
         <div>
           <h2 className="text-xl font-bold text-gray-800">Profil Paneli</h2>
         </div>
