@@ -12,13 +12,6 @@ export default function ProfileLayout({ children }: { children: ReactNode }) {
         </div>
 
         <nav className="space-y-3 text-sm">
-          <Link
-            href="/profile"
-            className="flex items-center gap-2 text-gray-700 hover:text-indigo-600 transition"
-          >
-            <User2 className="w-4 h-4" />
-            Profilim
-          </Link>
 
           <Link
             href="/profile/account"
